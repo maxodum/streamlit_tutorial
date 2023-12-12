@@ -3,7 +3,7 @@ import streamlit as st
 import plotly_express as px
 
 
-st.title('Уродливое дитя истекающих дедлайнов')
+st.title('Приложение, которое хотело бы быть красивее')
 
 df = st.cache_data(pd.read_csv)('dataset.csv')
 
